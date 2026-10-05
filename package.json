@@ -1,0 +1,28 @@
+{
+  "name": "suns-kitchen-group",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "lint": "eslint .",
+    "preview": "npm run build && npx serve out",
+    "static-preview": "npx serve out"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "lucide-react": "^1.52.0",
+    "motion": "^14.0.0",
+    "next": "16.3.8",
+    "ogl": "^1.0.11",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "serve": "^14.2.6",
+    "tailwindcss": "^4"
+  }
+}

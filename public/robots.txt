@@ -1,0 +1,4 @@
+# As a marketing preview without a confirmed production URL.
+# Change this when SITE.canonicalUrl and indexing are approved.
+User-agent: *
+Disallow: /
